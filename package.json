@@ -1,0 +1,44 @@
+{
+  "name": "omnibot_local_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertbosse/omnibot_local_dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/robertbosse/omnibot_local_dashboard/issues"
+  },
+  "homepage": "https://github.com/robertbosse/omnibot_local_dashboard#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.1",
+    "@grpc/proto-loader": "^0.8.0",
+    "koa": "^3.1.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^14.0.0",
+    "koa-static": "^5.0.0",
+    "ws": "^8.18.3",
+    "xstate": "^5.24.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^3.0.1",
+    "@types/koa-bodyparser": "^4.3.13",
+    "@types/koa-cors": "^0.0.6",
+    "@types/koa-router": "^7.4.9",
+    "@types/koa-static": "^4.0.4",
+    "@types/node": "^24.10.1",
+    "copyfiles": "^2.4.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

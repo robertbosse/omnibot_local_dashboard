@@ -1,0 +1,16 @@
+syntax = "proto3";
+package omnibot.notifications;
+
+service NotificationService {
+  rpc SubscribeToNotifications (SubscriptionRequest) returns (stream NotificationMessage);
+}
+
+message SubscriptionRequest { string environment = 1; }
+
+message NotificationMessage {
+  string id = 1;
+  string title = 2;
+  string body = 3;
+  string kind = 4;
+  string ctaLabel = 5;
+}
